@@ -5,7 +5,7 @@ import numpy as np
 kernel = np.ones((5,5),np.uint8)
 print(kernel)
 
-path = "C:/Users/Dama Prasoona/Downloads/harrypotter.png"
+path = "C:/Users/Naveen/Downloads/harrypotter.png"
 img =  cv2.imread(path)
 imgCanny = cv2.Canny(img,100,200)
 cv2.imshow("Img Canny",imgCanny)
