@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 # Load images
-img1 = cv2.imread("C:/Users/Dama Prasoona/Downloads/harrypotter.png")
-img2 = cv2.imread("C:/Users/Dama Prasoona/Downloads/harr.png")
+img1 = cv2.imread("C:/Users/Naveen/Downloads/harrypotter.png")
+img2 = cv2.imread("C:/Users/Naveen/Downloads/harr.png")
 
 # Define corresponding points
 pts1 = np.array([[50, 50], [200, 50], [50, 200], [200, 200]])
