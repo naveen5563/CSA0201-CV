@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # read the input image
-img = cv2.imread("C:/Users/Dama Prasoona/Downloads/harrypotter.png")
+img = cv2.imread("C:/Users/Naveen/Downloads/harrypotter.png")
 
 # access the image height and width
 rows,cols,_ = img.shape
